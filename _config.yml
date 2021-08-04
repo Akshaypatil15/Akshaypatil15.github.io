@@ -1,0 +1,168 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: PATIL AKSHAY VILAS VAISHALI
+title: Senior Data Scientist
+email: akshaypatil15@gmail.com
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  akshaypatil15
+stackoverflow_username: "6459275"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: chief_akshay
+linkedin_username: akshaypatil15
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Akshay and I'm a senior data scientist with 3 years of industrial experience in building solutions for Computer Vision as well as Natural Language problems. Proven success in creating and deploying machine learning solutions.
+
+  I am most skilled in: <mark>Python</mark> and <mark>Capturing Nature through lens</mark>
+
+content:
+  - title: Project # Title for the section
+    layout: text # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Getting text from PDF file using gcp
+        link: github.com/Akshaypatil15/getTextFromPDF
+        # link_text: Project Website
+        # additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is one of the beginner project created by me.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project. I have learned many skills after this and been I'm very proud of having this in my profile.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Quantech Data Science, Navi Mumbai
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Data Scientist
+        caption: December 2019 - Present
+        quote: >
+          Designing solution architectures for data science/machine learning products.
+        description: | # this will include new lines to allow paragraphs
+            In the world of technology, automation is one of growing field. And for automation we basically use Machine Learning as well as Data Science techniques. Me and my team responsible to make machine learning model experiments and automated different procedures. We also handling development and maintenance of trained model's docker containers on cloud platforms. 
+            
+      - layout: left
+        title: Cere Labs Pvt. Ltd., Mumbai
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Software Developer
+        caption: October 2018 - November 2019
+        quote: >
+          Artificial Intelligence research and deveploment.
+        description: | # this will include new lines to allow paragraphs
+            Collection and organization of large and complex datasets, conduct related pre-processing and cleaning methods. Analysis of gathered data to identify different patterns and insights from data. Develop algorithms using Deep Learning as well as Machine Learning to train models and get required information from data. Make these models servable using tensorflow serving so they can be easily used by the production team.
+            
+      - layout: left
+        title: Cere Labs Pvt. Ltd., Mumbai
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project Fellow
+        caption: September 2018 - September 2018
+        quote: >
+          Contribute to aspects of research strategy within the department.
+        description: | # this will include new lines to allow paragraphs
+            Identifying methods for Text Detection as well as Recognition in Printed Documents. Maintaining digital record of the results in presentable format.
+            
+      - layout: left
+        title: Cere Labs Pvt. Ltd., Mumbai
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Internship
+        caption: Feburary 2018 - May 2018
+        quote: >
+          Contribute to aspects of research strategy within the department.
+        description: | # this will include new lines to allow paragraphs
+            Identifying methods for Text Detection as well as Recognition in Printed Documents. Maintaining digital record of the results in presentable format.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University Of Mumbai
+        caption: 2016 - 2018
+        sub_title: MSc Computer Science
+        quote: >
+          Major in Computer Science Specialization in Machine Intelligence.
+        description: | # this will include new lines to allow paragraphs
+          University Department of Computer Science, is the oldest department started with a Master’s level programme in Computer Science. 
+          
+      - layout: left
+        title: University Of Mumbai
+        caption: 2010 - 2015
+        sub_title: BSc Physics
+        quote: >
+          The University of Mumbai is one of the oldest and premier Universities of India.
+        description: | # this will include new lines to allow paragraphs  
+          I studied in Bhavan's College which is one of the oldest and top most college in Mumbai.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in Machine Leanring some of my other interests and hobbies are:
+      - Cycling
+      - Gaming
+      - Playing Cricket
+      - Photography
+
+      Look at this cool image  
+      ![Trees](images/beach.jpg "Beach")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
