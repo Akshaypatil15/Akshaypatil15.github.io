@@ -87,7 +87,7 @@ content:
           NEURAL NETWORK FOR CLASSIFICATION OF STARS AND GALAXIES.
         description: | # this will include new lines to allow paragraphs
           Developed a star-galaxy classification framework that uses a neural network model directly on
-the images from the Sloan Digital Sky Survey(SDSS). Trained model using <mark>Convolution Neural Network</mark> with the help of <mark>TensorFlow</mark> library.
+the images from the Sloan Digital Sky Survey(SDSS). Trained model using Convolution Neural Network with the help of TensorFlow library.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
