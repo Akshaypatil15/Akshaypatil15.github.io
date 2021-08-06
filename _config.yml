@@ -73,7 +73,7 @@ content:
           Developed a star-galaxy classification framework that uses a neural network model directly on the images from the <mark>Sloan Digital Sky Survey(SDSS)</mark>. Trained model using Convolution <mark>Neural Network</mark> with the help of <mark>TensorFlow</mark> library.
 
       - layout: left
-        title: PDF to Text
+        title: Pdf to Text
         link: https://github.com/Akshaypatil15/getTextFromPDF
         link_text: getTextFromPDF
         # additional_links:
