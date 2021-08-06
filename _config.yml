@@ -71,6 +71,23 @@ content:
           This is one of the beginner project created by me.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project. I have learned many skills after this and been I'm very proud of having this in my profile.
+     
+      - layout: left
+        title: Course Project
+        # link: github.com/Akshaypatil15/getTextFromPDF
+        # link_text: Project Website
+        # additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          NEURAL NETWORK FOR CLASSIFICATION OF STARS AND GALAXIES.
+        description: | # this will include new lines to allow paragraphs
+          Developed a star-galaxy classification framework that uses a neural network model directly on
+the images from the Sloan Digital Sky Survey(SDSS). Trained model using <mark>Convolution Neural Network</mark> with the help of <mark>TensorFlow</mark> library.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -84,7 +101,7 @@ content:
         quote: >
           Designing solution architectures for data science/machine learning products.
         description: | # this will include new lines to allow paragraphs
-            In the world of technology, automation is one of growing field. And for automation we basically use Machine Learning as well as Data Science techniques. Me and my team responsible to make machine learning model experiments and automated different procedures. We also handling development and maintenance of trained model's docker containers on cloud platforms. 
+            In the world of technology, automation is one of growing field. And for automation we basically use Machine Learning as well as Data Science techniques. Me and my team responsible to make machine learning model experiments and automated different procedures. We also handling development and maintenance of trained model's <mark>docker</mark> containers on cloud platforms. 
             
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
@@ -115,10 +132,9 @@ content:
         sub_title: Internship
         caption: Feburary 2018 - May 2018
         quote: >
-          Contribute to aspects of research strategy within the department.
+          Galaxy Detection Using Artificial Intelligence.
         description: | # this will include new lines to allow paragraphs
-            Identifying methods for Text Detection as well as Recognition in Printed Documents. Maintaining digital record of the results in presentable format.
-
+            Generating image data from Radio Sources and preprocessing images. With help of Deep Learning identifying Type-1 Galaxies in those Images. Trained different DL models and compared their performance for finest results.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
