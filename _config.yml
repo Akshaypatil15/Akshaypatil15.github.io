@@ -151,7 +151,7 @@ content:
       - Photography
 
       Look at this cool image  
-      ![Trees](images/beach.jpg "Beach")
+      ![Beach](images/beach.jpg "Beach")
 
 # Footer
 footer_show_references: true
