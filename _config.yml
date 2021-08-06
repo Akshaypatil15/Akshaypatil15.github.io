@@ -57,24 +57,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Getting text from PDF file using gcp
-        link: github.com/Akshaypatil15/getTextFromPDF
-        # link_text: Project Website
-        # additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is one of the beginner project created by me.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project. I have learned many skills after this and been I'm very proud of having this in my profile.
-     
-      - layout: left
         title: Course Project
-        # link: github.com/Akshaypatil15/getTextFromPDF
+        # link: 
         # link_text: Project Website
         # additional_links:
         #  - title:  sproogen/modern-resume-theme
@@ -87,6 +71,22 @@ content:
           NEURAL NETWORK FOR CLASSIFICATION OF STARS AND GALAXIES.
         description: | # this will include new lines to allow paragraphs
           Developed a star-galaxy classification framework that uses a neural network model directly on the images from the <mark>Sloan Digital Sky Survey(SDSS)</mark>. Trained model using Convolution <mark>Neural Network</mark> with the help of <mark>TensorFlow</mark> library.
+
+      - layout: left
+        title: PDF to Text
+        link: https://github.com/Akshaypatil15/getTextFromPDF
+        link_text: getTextFromPDF
+        # additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is one of the beginner project created by me.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project. I have learned many skills after this and been I'm very proud of having this in my profile.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -111,7 +111,7 @@ content:
         quote: >
           Artificial Intelligence research and deveploment.
         description: | # this will include new lines to allow paragraphs
-            Collection and organization of large and complex datasets, conduct related pre-processing and cleaning methods. Analysis of gathered data to identify different patterns and insights from data. Develop algorithms using Deep Learning as well as Machine Learning to train models and get required information from data. Make these models servable using tensorflow serving so they can be easily used by the production team.
+            Collection and organization of large and complex datasets, conduct related pre-processing and cleaning methods. Analysis of gathered data to identify different patterns and insights from data. Develop algorithms using Deep Learning as well as Machine Learning to train models and get required information from data. Make these models servable using <mark>tensorflow serving</mark> so they can be easily used by the production team.
             
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
@@ -122,7 +122,7 @@ content:
         quote: >
           Contribute to aspects of research strategy within the department.
         description: | # this will include new lines to allow paragraphs
-            Identifying methods for Text Detection as well as Recognition in Printed Documents. Maintaining digital record of the results in presentable format.
+            Identifying methods for <mark>Text Detection</mark> as well as <mark>Recognition</mark> in Printed Documents. Maintaining digital record of the results in presentable format.
             
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
@@ -133,7 +133,7 @@ content:
         quote: >
           Galaxy Detection Using Artificial Intelligence.
         description: | # this will include new lines to allow paragraphs
-            Generating image data from Radio Sources and preprocessing images. With help of Deep Learning identifying Type-1 Galaxies in those Images. Trained different DL models and compared their performance for finest results.
+            Generating image data from Radio Sources and preprocessing images. With help of <mark>Deep Learning</mark> identifying Type-1 Galaxies in those Images. Trained different DL models and compared their performance for finest results.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
