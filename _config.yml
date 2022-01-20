@@ -15,10 +15,10 @@ email: akshaypatil15@gmail.com
 darkmode: false
 
 # Social links
+linkedin_username: akshaypatil15
 github_username:  akshaypatil15
 stackoverflow_username: "6459275"
 instagram_username: chief_akshay
-linkedin_username: akshaypatil15
 # twitter_username: akshaypatil15
 # facebook_username: appy15
 # pinterest_username: akshaypatil15
@@ -27,7 +27,7 @@ linkedin_username: akshaypatil15
 # Additional icon links
 additional_links:
 - title: wordpress
-  icon: https://s.w.org/style/images/about/WordPress-logotype-wmark.png
+  icon: fab fa-wordpress
   url: https://chiefakshaypatil.wordpress.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
