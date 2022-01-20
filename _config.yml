@@ -15,19 +15,15 @@ email: akshaypatil15@gmail.com
 darkmode: false
 
 # Social links
-# twitter_username: facespics
 github_username:  akshaypatil15
 stackoverflow_username: "6459275"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
 instagram_username: chief_akshay
 linkedin_username: akshaypatil15
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+wordpress_username: chiefakshaypatil
+# twitter_username: akshaypatil15
+# facebook_username: appy15
+# pinterest_username: akshaypatil15
+# youtube_username: 64113981
 
 # Additional icon links
 # additional_links:
@@ -37,12 +33,6 @@ linkedin_username: akshaypatil15
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -61,12 +51,12 @@ content:
         # link: 
         # link_text: Project Website
         # additional_links:
-        #  - title:  sproogen/modern-resume-theme
+        #  - title:  akshaypatil15/getTextFromPDF
         #    icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    url: https://github.com/Akshaypatil15/getTextFromPDF.git
+          # - title:  Github page for project (eg. akshaypatil15/getTextFromPDF)
           #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          #   url: Link to project (eg. https://github.com/Akshaypatil15/getTextFromPDF.git)
         quote: >
           NEURAL NETWORK FOR CLASSIFICATION OF STARS AND GALAXIES.
         description: | # this will include new lines to allow paragraphs
@@ -77,10 +67,10 @@ content:
         link: https://github.com/Akshaypatil15/getTextFromPDF
         link_text: getTextFromPDF
         # additional_links:
-        #  - title:  sproogen/modern-resume-theme
+        #  - title:  modern-resume-theme
         #    icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    url: boringcompany.com
+          # - title:  Github page for project (eg. akshaypatil15/getTextFromPDF)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
