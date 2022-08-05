@@ -47,7 +47,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: MSc. Course Project
+        title: MS Course Project
         # link: 
         # link_text: Project Website
         # additional_links:
@@ -78,8 +78,8 @@ content:
         quote: >
           Google Cloud Platform implementation for text detection and recognition.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project.
-          I have learned many skills after this and been I'm very proud of having this in my profile.
+          - I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project.
+          - I have learned many skills after this and been I'm very proud of having this in my profile.
 
       - layout: left
         title: Freelance
@@ -95,10 +95,10 @@ content:
         quote: >
           Few freelacing projects done by me.
         description: | # this will include new lines to allow paragraphs
-          ● Developed a machine learning based python program to detect mobile manufacturer names using mobile images.
-          ● Applied statistical method for image generation in multiple NFT projects.
-          ● Created a neural network project which can classify currency notes.
-          ● Applied Deep Learning method for Character Recognition in Devanagari Languages.
+          - Developed a machine learning based python program to detect mobile manufacturer names using mobile images.
+          - Applied statistical method for image generation in multiple NFT projects.
+          - Created a neural network project which can classify currency notes.
+          - Applied Deep Learning method for Character Recognition in Devanagari Languages.
 
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -139,12 +139,12 @@ content:
         quote: >
           Artificial Intelligence research and deveploment.
         description: | # this will include new lines to allow paragraphs
-            • Collecting different types of printed documents and applying pre-processing and cleaning methods.
-            • Applied and evaluated OCR problems by using deep learning algorithms such as <mark>CNN</mark>, <mark>FRCNN</mark>, etc.
-            • Design, Developed and tested NLP algorithms such as <mark>RNN</mark>, <mark>LSTM</mark>, etc to get insights from given text.
-            • Used <mark>TensorFlow Serving</mark> to deploy models for production use and deployed models with the help of AWS/GCP cloud services.
-            • Developed and improved a few documents information extraction automation for such as Bank Account Statements, CIBIL Report, KYC Documents.
-            • Developed end to end machine learning pipeline for Electricity Metre Reading, Data masking on sensitive information.
+            - Collecting different types of printed documents and applying pre-processing and cleaning methods.
+            - Applied and evaluated OCR problems by using deep learning algorithms such as <mark>CNN</mark>, <mark>FRCNN</mark>, etc.
+            - Design, Developed and tested NLP algorithms such as <mark>RNN</mark>, <mark>LSTM</mark>, etc to get insights from given text.
+            - Used <mark>TensorFlow Serving</mark> to deploy models for production use and deployed models with the help of AWS/GCP cloud services.
+            - Developed and improved a few documents information extraction automation for such as Bank Account Statements, CIBIL Report, KYC Documents.
+            - Developed end to end machine learning pipeline for Electricity Metre Reading, Data masking on sensitive information.
 
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
@@ -155,8 +155,8 @@ content:
         quote: >
           Contribute to aspects of research strategy within the department.
         description: | # this will include new lines to allow paragraphs
-            ● Maintaining digital record of the results in presentable format.
-            ● Identifying methods for <mark>Text Detection</mark> as well as <mark>Recognition</mark> in Printed Documents.
+            - Maintaining digital record of the results in presentable format.
+            - Identifying methods for <mark>Text Detection</mark> as well as <mark>Recognition</mark> in Printed Documents.
 
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
@@ -167,9 +167,9 @@ content:
         quote: >
           Galaxy Detection Using Artificial Intelligence.
         description: | # this will include new lines to allow paragraphs
-            o Generating image data from Radio Sources and pre-processing images.
-            o With help of <mark>Deep Learning</mark> identifying Type-1 Galaxies in those Images.
-            o Trained different DL models and compared their performance for finest results.
+            - Generating image data from Radio Sources and pre-processing images.
+            - With help of <mark>Deep Learning</mark> identifying Type-1 Galaxies in those Images.
+            - Trained different DL models and compared their performance for finest results.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -181,8 +181,8 @@ content:
         quote: >
           Major in Computer Science Specialization in Machine Intelligence.
         description: | # this will include new lines to allow paragraphs
-          University Department of Computer Science, is the oldest department started with a Master’s level programme in Computer Science. 
-          
+          University Department of Computer Science, is the oldest department started with a Master's level programme in Computer Science. 
+
       - layout: left
         title: University Of Mumbai
         caption: 2010 - 2015
@@ -202,7 +202,7 @@ content:
       - Stargazing
       - Photography
 
-      Look at this cool imagew
+      Look at this cool image.|
       ![Beach](images/beach.jpg "Beach")
 
 # Footer
