@@ -19,7 +19,7 @@ linkedin_username: akshaypatil15
 github_username:  akshaypatil15
 stackoverflow_username: "6459275"
 instagram_username: chief_akshay
-twitter_username: akshaypatil15
+# twitter_username: akshaypatil15
 # facebook_username: appy15
 # pinterest_username: akshaypatil15
 # youtube_username: "64113981"
@@ -112,23 +112,23 @@ content:
         quote: >
           AUTOMATING INVOICE PROCESSING
         description: | # this will include new lines to allow paragraphs
-            o Designed solution architectures for the product and ensured its production quality from data-ops perspective.
-            o Establish proper monitoring of online/offline models and perform re-training whenever necessary, preferably through an automated procedure.
-            o Facilitated machine learning model experiments at scale.
-            o Development and maintenance of <mark>docker</mark> containers on cloud platforms.
+            - Designed solution architectures for the product and ensured its production quality from data-ops perspective.
+            - Establish proper monitoring of online/offline models and perform re-training whenever necessary, preferably through an automated procedure.
+            - Facilitated machine learning model experiments at scale.
+            - Development and maintenance of <mark>docker</mark> containers on cloud platforms.
 
         quote: >
           TDS RECONCILIATION ENGINE
         description: | # this will include new lines to allow paragraphs
-            o Developed a python-based project which can get and read input files from the server.
-            o Applied govt defined rules to get TDS calculations and updating into <mark>MS-SQL Server</mark>.
-            o Converted the whole process into a docker container and deployed to <mark>Microsoft Azure</mark>.
+            - Developed a python-based project which can get and read input files from the server.
+            - Applied govt defined rules to get TDS calculations and updating into <mark>MS-SQL Server</mark>.
+            - Converted the whole process into a docker container and deployed to <mark>Microsoft Azure</mark>.
 
         quote: >
           ITR Data Extraction
         description: | # this will include new lines to allow paragraphs
-            o Designed and developed python pipeline using NLP technique to get required information.
-            o Implemented <mark>FASK service</mark> for communication with other programs.
+            - Designed and developed python pipeline using NLP technique to get required information.
+            - Implemented <mark>FASK service</mark> for communication with other programs.
 
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
@@ -202,8 +202,8 @@ content:
       - Stargazing
       - Photography
 
-      Look at this cool image.|
-      ![Beach](images/beach.jpg "Beach")
+      Look at this cool image.
+      - ![Beach](images/beach.jpg "Beach")
 
 # Footer
 footer_show_references: true
