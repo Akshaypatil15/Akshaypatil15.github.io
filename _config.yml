@@ -9,7 +9,7 @@ version: 2
 name: PATIL AKSHAY VILAS VAISHALI
 title: Senior Data Scientist
 email: akshaypatil15@gmail.com
-# website: www.github.com/sproogen/resume-theme
+# website: www.github.com/akshaypatil15
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -19,7 +19,7 @@ linkedin_username: akshaypatil15
 github_username:  akshaypatil15
 stackoverflow_username: "6459275"
 instagram_username: chief_akshay
-# twitter_username: akshaypatil15
+twitter_username: akshaypatil15
 # facebook_username: appy15
 # pinterest_username: akshaypatil15
 # youtube_username: "64113981"
@@ -37,16 +37,17 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Akshay and I'm a senior data scientist with 3 years of industrial experience in building solutions for Computer Vision as well as Natural Language problems. Proven success in creating and deploying machine learning solutions.
+  Hi, my name's Akshay and I'm a senior data scientist with 4 years of industrial experience in building solutions for Computer Vision as well as 
+  Natural Language problems. Proven success in creating and deploying machine learning solutions.
 
-  I am most skilled in: <mark>Python</mark> and <mark>Capturing Nature through lens</mark>
+  I am most skilled in: <mark>Python</mark>, <mark>Data Science</mark>, <mark>Machine Learning</mark> and <mark>Capturing Nature through lens</mark>
 
 content:
-  - title: Project # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Course Project
+        title: MSc. Course Project
         # link: 
         # link_text: Project Website
         # additional_links:
@@ -59,7 +60,9 @@ content:
         quote: >
           NEURAL NETWORK FOR CLASSIFICATION OF STARS AND GALAXIES.
         description: | # this will include new lines to allow paragraphs
-          Developed a star-galaxy classification framework that uses a neural network model directly on the images from the <mark>Sloan Digital Sky Survey(SDSS)</mark>. Trained model using Convolution <mark>Neural Network</mark> with the help of <mark>TensorFlow</mark> library.
+          - Created a pipeline to download FITS files from <mark>Sloan Digital Sky Survey(SDSS)</mark> sky observatory and converted files into images (numpy array).
+          - Developed a star-galaxy classification framework that uses a <mark>Neural Network</mark> model on these images.
+          - Trained model using <mark>Convolution Neural Network</mark> with the help of <mark>TensorFlow</mark> library.
 
       - layout: left
         title: Pdf to Text
@@ -73,24 +76,60 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is one of the beginner project created by me.
+          Google Cloud Platform implementation for text detection and recognition.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project. I have learned many skills after this and been I'm very proud of having this in my profile.
+          I started this project as a way to learn <mark>GCP</mark> and it has since grown into a fully end-to-end python project.
+          I have learned many skills after this and been I'm very proud of having this in my profile.
 
-  - title: Experience # Title for the section
+      - layout: left
+        title: Freelance
+        #link: PROJECT_LINK
+        #link_text: LINK_CAPTION
+        # additional_links:
+        #  - title:  modern-resume-theme
+        #    icon: fab fa-github
+        #    url: boringcompany.com
+          # - title:  Github page for project (eg. akshaypatil15/getTextFromPDF)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Few freelacing projects done by me.
+        description: | # this will include new lines to allow paragraphs
+          ● Developed a machine learning based python program to detect mobile manufacturer names using mobile images.
+          ● Applied statistical method for image generation in multiple NFT projects.
+          ● Created a neural network project which can classify currency notes.
+          ● Applied Deep Learning method for Character Recognition in Devanagari Languages.
+
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Quantech Data Science, Navi Mumbai
+        title: Quantech Data Science LLP, Navi Mumbai
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Senior Data Scientist
         caption: December 2019 - Present
         quote: >
-          Designing solution architectures for data science/machine learning products.
+          AUTOMATING INVOICE PROCESSING
         description: | # this will include new lines to allow paragraphs
-            In the world of technology, automation is one of growing field. And for automation we basically use Machine Learning as well as Data Science techniques. Me and my team responsible to make machine learning model experiments and automated different procedures. We also handling development and maintenance of trained model's <mark>docker</mark> containers on cloud platforms. 
-            
+            o Designed solution architectures for the product and ensured its production quality from data-ops perspective.
+            o Establish proper monitoring of online/offline models and perform re-training whenever necessary, preferably through an automated procedure.
+            o Facilitated machine learning model experiments at scale.
+            o Development and maintenance of <mark>docker</mark> containers on cloud platforms.
+
+        quote: >
+          TDS RECONCILIATION ENGINE
+        description: | # this will include new lines to allow paragraphs
+            o Developed a python-based project which can get and read input files from the server.
+            o Applied govt defined rules to get TDS calculations and updating into <mark>MS-SQL Server</mark>.
+            o Converted the whole process into a docker container and deployed to <mark>Microsoft Azure</mark>.
+
+        quote: >
+          ITR Data Extraction
+        description: | # this will include new lines to allow paragraphs
+            o Designed and developed python pipeline using NLP technique to get required information.
+            o Implemented <mark>FASK service</mark> for communication with other programs.
+
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
         # link: boringcompany.com
@@ -100,8 +139,13 @@ content:
         quote: >
           Artificial Intelligence research and deveploment.
         description: | # this will include new lines to allow paragraphs
-            Collection and organization of large and complex datasets, conduct related pre-processing and cleaning methods. Analysis of gathered data to identify different patterns and insights from data. Develop algorithms using Deep Learning as well as Machine Learning to train models and get required information from data. Make these models servable using <mark>tensorflow serving</mark> so they can be easily used by the production team.
-            
+            • Collecting different types of printed documents and applying pre-processing and cleaning methods.
+            • Applied and evaluated OCR problems by using deep learning algorithms such as <mark>CNN</mark>, <mark>FRCNN</mark>, etc.
+            • Design, Developed and tested NLP algorithms such as <mark>RNN</mark>, <mark>LSTM</mark>, etc to get insights from given text.
+            • Used <mark>TensorFlow Serving</mark> to deploy models for production use and deployed models with the help of AWS/GCP cloud services.
+            • Developed and improved a few documents information extraction automation for such as Bank Account Statements, CIBIL Report, KYC Documents.
+            • Developed end to end machine learning pipeline for Electricity Metre Reading, Data masking on sensitive information.
+
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
         # link: boringcompany.com
@@ -111,8 +155,9 @@ content:
         quote: >
           Contribute to aspects of research strategy within the department.
         description: | # this will include new lines to allow paragraphs
-            Identifying methods for <mark>Text Detection</mark> as well as <mark>Recognition</mark> in Printed Documents. Maintaining digital record of the results in presentable format.
-            
+            ● Maintaining digital record of the results in presentable format.
+            ● Identifying methods for <mark>Text Detection</mark> as well as <mark>Recognition</mark> in Printed Documents.
+
       - layout: left
         title: Cere Labs Pvt. Ltd., Mumbai
         # link: boringcompany.com
@@ -122,7 +167,9 @@ content:
         quote: >
           Galaxy Detection Using Artificial Intelligence.
         description: | # this will include new lines to allow paragraphs
-            Generating image data from Radio Sources and preprocessing images. With help of <mark>Deep Learning</mark> identifying Type-1 Galaxies in those Images. Trained different DL models and compared their performance for finest results.
+            o Generating image data from Radio Sources and pre-processing images.
+            o With help of <mark>Deep Learning</mark> identifying Type-1 Galaxies in those Images.
+            o Trained different DL models and compared their performance for finest results.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -152,9 +199,10 @@ content:
       - Cycling
       - Gaming
       - Playing Cricket
+      - Stargazing
       - Photography
 
-      Look at this cool image  
+      Look at this cool imagew
       ![Beach](images/beach.jpg "Beach")
 
 # Footer
